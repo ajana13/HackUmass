@@ -1,25 +1,15 @@
 html {
-    background: #8F4839;
+    background: url(background.png);
+    background-repeat: repeat;
+    background-size: cover;
     /*background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);*/
     -webkit-font-smoothing: antialiased;
 }
 
 body{
-    height: 100%;
-    
-}
-
-.button {
-    background-color: #4CAF50; /* Green */
-    border: 2px solid #4CAF50;
-    color: white;
-    padding: 10px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    float: right;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+    height: 100%; 
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 a {
@@ -31,7 +21,7 @@ a {
     width: auto;
     height: auto;
     float: center;
-    background: white;
+    color: #FAF2A1;
 }
 
 p {
@@ -48,32 +38,81 @@ h1 {
 }
 
 .contentBox {
-    width: 27%;
-    height: 300px;
+    width: 25%;
+    height: 250px;
     margin: auto;
-    font-size: 50px;
-    color: #4CAF50;
+    font-size: 240%;
+    color: #453F78;
     text-decoration: underline;
-    border: 2px solid #4CAF50;
+    border: 2px solid #453F78;
     background-color: white;
     text-align: center;
     word-wrap: break-word;
-    margin-left: 2%;
+    margin-left: 4%;
     margin-right: 4%;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 .contentBox:hover {
-    background-color: #4CAF50;
+    background-color: #BBBDF6;
+    color: white;
+}
+.wrapper{
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+}
+.push{
+    position: absolute;
+    height: 50px;
+}
+.foot{
+    position: absolute;
+    height: 50px;
+    bottom: 0;
+    background-color: #2bbc91;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+img {
+    max-width:200px;
+    max-height:70px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.header {
+    background-color: #2bbc91;
+    height: 80px;
+    font-size: 100px;
+}
+
+.button {
+    background-color: #759AAB; /* Green */
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.button:hover {
+    background-color: #453F78;
     color: white;
 }
 
-.footer{
-    background-color: white;
-    color: black;
-    text-align: center;
-    height: 50px;
+.login {
+    font-size: 15px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
 }
-
 

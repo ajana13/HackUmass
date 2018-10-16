@@ -1,0 +1,33 @@
+html {
+    background: url(background.png);
+    background-repeat: repeat;
+    background-size: cover;
+    /*background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);*/
+    -webkit-font-smoothing: antialiased;
+}
+
+body{
+    height: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+.contentBox{
+    width: 33%;
+    border-right: 2px solid white;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+p {
+    text-align: center;
+}
+
+.content{
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}

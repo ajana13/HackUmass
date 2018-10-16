@@ -1,0 +1,92 @@
+/* EXPORT BUTTON */
+button.dt-button,div.dt-button,a.dt-button{
+    position:relative;
+    display:inline-block;
+    box-sizing:border-box;
+    margin-right:0.333em;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding:0.5em 1em;
+    border:1px solid #C3270F;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:0.88em;
+    color:black;
+    white-space:nowrap;
+    overflow:hidden;
+    background-color:#C3270F;
+    color: white;
+}
+button.dt-button:hover,div.dt-button:hover,a.dt-button:hover{
+    cursor: pointer;
+    background: #FE5050;
+    color: #000;
+}
+/* SHOW _ of _ stays on same line as EXCEL BTN */
+div.dt-buttons{position:relative;float:left}
+.f{
+    background-color: aliceblue;
+    border: 1px solid #3326AC;
+    width: 30%;
+    min-width: 200px;
+    padding: 1%;
+    margin-left: 34%;
+    margin-right: 34%;
+    margin-bottom: 10%;
+    border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+	margin: 4% 2px 4% 2px;
+}
+.input-group label {
+	display: block;
+	text-align: left;
+	/*margin: 3px;*/
+    margin: 2%;
+}
+.input-group input {
+	border: 1px solid gray;
+    height: 50%;
+    padding: 1% 2%;
+    width: 90%;
+    font-size: 80%;
+    border-radius: 5%;
+}
+.btn {
+    color: white;
+    background: #C3270F;
+    border: none;
+    width: 40%;
+    height: 50%;
+    padding: 3%;
+    border-radius: 5px;
+    font-size: 90%;
+    margin-left: 28%;
+}
+.btn:hover{
+    cursor: pointer;
+    background: #FE5050;
+    color: #000;
+}
+.show_hidden{
+/**/    position: absolute;
+/**/    display: inline-block;
+    color: white;
+    background: #C3270F;
+    border: none;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+/*    margin-top: -36px; */
+/**/    margin-top: 45px;
+    float: left;
+/**/    left: 9%;
+} 
+.show_hidden a {
+    color: white;
+}
+.show_hidden:hover{
+    cursor: pointer;
+    background: #FE5050;
+    color: #000;
+}

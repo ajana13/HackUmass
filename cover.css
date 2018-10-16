@@ -1,0 +1,135 @@
+html {
+    background: url(background.png);
+    background-repeat: repeat;
+    background-size: cover;
+    /*background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);*/
+    -webkit-font-smoothing: antialiased;
+}
+
+body{
+    height: 100%; 
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+a {
+    text-decoration: underline;
+    color: white;
+}
+
+.flyer {
+    width: auto;
+    height: auto;
+    float: center;
+    color: #FAF2A1;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    padding-top: 50px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.contentBox {
+    position: relative;
+    width: 25%;
+    height: 250px;
+    margin: auto;
+    font-size: 240%;
+    color: #453F78;
+    text-decoration: underline;
+    border: 2px solid #453F78;
+    background-color: white;
+    text-align: center;
+    word-wrap: break-word;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contentBox:hover {
+    background-color: #BBBDF6;
+    color: white;
+}
+.wrapper{
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+}
+.push{
+    position: absolute;
+    height: 50px;
+}
+.foot{
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    background-color: #2bbc91;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.logo {
+    max-width:200px;
+    max-height:70px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.header {
+    background-color: #2bbc91;
+    height: 80px;
+    font-size: 100px;
+}
+
+.button {
+    background-color: #759AAB; /* Green */
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.button:hover {
+    background-color: #453F78;
+    color: white;
+}
+
+.login {
+    font-size: 15px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+/*
+footer {
+    height: auto;
+    background-color: #2bbc91;
+}
+
+.foot {
+    width: 300px;
+    text-align: center;
+    margin-left: 55px;
+    margin-right: 55px;
+}*/
+
+img {
+    width: 200px;
+    height: 200px;
+}

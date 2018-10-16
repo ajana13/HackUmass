@@ -1,0 +1,553 @@
+/* CSS Styling for all pages */
+
+* { margin: 0px; padding: 0px; }
+html{
+    background: url(background.png);
+    background-repeat: repeat;
+    background-size: cover;
+}
+body {
+	font-size: 120%;
+    height: 75%;
+}
+.contents{
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+.foot, .push{
+    height: 50px;
+    clear: both;
+}
+
+/*Excel Button */
+.excel{
+  color: white;
+  background: #C3270F;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 70px;
+  margin-left: 46%;
+  margin-bottom: 10px;
+  height: 40px; 
+}
+.excel:hover{
+    cursor: pointer;
+    background: #FE5050;
+    color: #000;
+}
+
+.select{
+    color: brown;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.search_result{
+    position: absolute;
+    width: 100%;
+    z-index: -10;
+    top: 330px;
+    margin-bottom: 10px;
+}
+
+
+/* EXPORT BUTTON */
+button.dt-button,div.dt-button,a.dt-button{
+    position:relative;
+    display:inline-block;
+    box-sizing:border-box;
+    margin-right:0.333em;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding:0.5em 1em;
+    border:1px solid #C3270F;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:0.88em;
+    color:black;
+    white-space:nowrap;
+    overflow:hidden;
+    background-color:#C3270F;
+    color: white;
+}
+button.dt-button:hover,div.dt-button:hover,a.dt-button:hover{
+    cursor: pointer;
+    background: #FE5050;
+    color: #000;
+}
+/* SHOW _ of _ stays on same line as EXCEL BTN */
+div.dt-buttons{position:relative;float:left}
+
+
+
+/*LOGIN PAGE*/
+.log{
+    /*background: "background.png" no-repeat center center fixed;*/
+    background: url(background.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;
+}
+.header {
+    color: white;
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.login_header {
+    color: white;
+    background: #453F78;
+    text-align: center;
+    border: 1px solid #453F78;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    width: 30%;
+    min-width: 200px;
+    margin-left: 34%;
+    margin-top: 20px;
+    padding: 1%;
+}
+.f{
+    background-color: #BBBDF6;
+    border: 1px solid #453F78;
+    width: 30%;
+    min-width: 200px;
+    padding: 1%;
+    margin-left: 34%;
+    margin-right: 34%;
+    margin-bottom: 10%;
+    border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+	margin: 4% 2px 4% 2px;
+}
+.input-group label {
+	display: block;
+	text-align: left;
+	/*margin: 3px;*/
+    margin: 2%;
+}
+.input-group input {
+	border: 1px solid gray;
+    height: 50%;
+    padding: 1% 2%;
+    width: 90%;
+    font-size: 80%;
+    border-radius: 5%;
+}
+.btn {
+    color: white;
+    background: #453F78;
+    border: none;
+    width: 40%;
+    height: 50%;
+    padding: 3%;
+    border-radius: 5px;
+    font-size: 90%;
+    margin-left: 28%;
+}
+.btn:hover{
+    cursor: pointer;
+    background: #2bbc91;
+    color: #000;
+}
+
+
+
+/* HOME PAGE: */
+.home {
+    background-color: aliceblue;
+}
+.title {
+    font-size: 46px;
+    margin-top: 50px;
+    margin-bottom: -102px;
+    min-width: 900px;
+}
+.admin_header {
+    background: #3326AC;
+    color: white;
+    text-align: center;
+    height: 40px;
+    min-width: 900px;
+    margin-top: 152px;
+    padding: 5px;
+}
+.head_info {
+    position: absolute;
+    display: inline-block; 
+    float: left;
+    text-decoration-color: white;
+    top: 162px;
+    left: 8%;
+    text-align: left;
+    background: none;
+}
+.h {
+    position: absolute;
+    display: inline-block;
+    float: right;
+    right:70px;
+    top: 157px;
+    background: none;
+}
+.s {
+    position: absolute;
+    display: inline-block;
+    float: right;
+    right: 120px;
+    top: 157px;
+    background: none;
+}
+.icon img {
+	display: inline-block; 
+	width: 35px; 
+	height: 35px; 
+	margin: 1px;
+	float: right;
+}
+.icon div {
+	display: inline-block; 
+	margin: 5px;
+}
+.icon:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/* <!-- User Info --> */
+.user_info {
+    border: none;
+    background-color: aliceblue;
+    margin-top: 50px;
+    margin-left: 8%;
+    width: 20%;
+    min-width: 200px;
+    height: 346px;
+}
+.temp{
+    position: absolute;
+}
+.name {
+    position: absolute;
+    display: inline-block;
+    float: left;
+    border: dashed;
+    border-color: #C3270F; 
+    border-radius: 10px;
+    font-size: 90%;
+    padding: 1%;
+    background-color: white;
+    color: #3326AC;
+    margin-top: 200px;
+}
+.name:hover {
+    cursor: pointer;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.exps {
+    position: absolute;
+    display: inline-block;
+    width: 170px;
+    padding: 1%;
+    height: 80px;
+    float: left;
+    font-size: 18px;
+    background-color: darksalmon;
+    color: brown;
+    border: 2px solid brown;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 24%;
+}
+.exps:hover {
+    background-color: lightsalmon;
+    border-radius: 10px;
+    cursor: pointer;
+    color: red;
+    border: 2px solid red;     
+}
+.trns {
+    display: inline-block;
+    width: auto;
+    padding: 10%;
+    height: 80px;
+    float: left;
+    font-size: 18px;
+    background-color: darksalmon;
+    color: brown;
+    border: 2px solid brown;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 220%;
+}
+.trns:hover {
+    background-color: lightsalmon;
+    border-radius: 10px;
+    cursor: pointer;
+    color: red;
+    border: 2px solid red; 
+}
+
+/* <!-- FOOT --> */
+.foot {
+   /* position: static; */
+    color: white;
+    background: #3326AC;
+    text-align: center;
+    width: 100%;
+    min-width: 900px;
+}
+
+
+
+
+/* VIEW USERS PAGE: */
+.list{
+    background: url("logo.jpg") no-repeat top center;
+    background-size: 300px;
+}
+/* <!-- Search Bar --> */
+.bar {
+    display: inline-block;
+    background-color: burlywood;
+    border-radius: 10px;
+    padding: 1%;
+    width: 90%;
+    height: 90px;
+    min-width: 800px;
+    font-size: 80%;
+    margin-left: 4%;
+    margin-top: 10px;
+}
+.s1{
+    margin-left: 5%;
+    float: left;
+}
+.s-btn{
+    float: right;
+    margin-right: 3%;
+}
+.search {
+  color: white;
+  background: #C3270F;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+    width: 70px;
+    margin-left: 30px;
+    margin-right: 20px;
+  height: 40px; 
+}
+.search:hover, .export:hover{
+    cursor: pointer;
+    background: #FE5050;
+    color: #000;
+}
+/* <!-- User Table --> */
+.table {
+    background-color: bisque;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* RESET PASSWORD FOR USER: */
+.update_head{
+    padding: 1%;
+    margin-top: 20px;
+    text-align: center;
+    min-width: 900px;
+}
+.change_data {
+    text-align: center;
+    min-width: 900px;
+}
+.info {
+    padding: 5px;
+    margin-top: 10px;
+}
+.whole{
+    margin-top: 25px;
+    min-width: 900px;
+}
+.save {
+    color: white;
+    background: #C3270F;
+    border: none;
+    border-radius: 5px;
+    padding: 1%;
+    font-size: 18px;
+    margin-left: 13%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.save:hover{
+    cursor: pointer;
+    background: #FE5050;
+    color: #000;
+}
+.b{
+    margin-left: 30%;
+}
+.break{
+    height: 50px
+}
+
+
+
+/* DELETE USER: */
+.delete_head{
+    padding: 1%;
+    margin-top: 20px;
+    text-align: center;
+    min-width: 900px;
+}
+
+
+/* LOCK USER: */
+.space{
+    height: 30px;
+}
+
+
+/* VIEW EXCEPTIONS: */
+.e1 {
+    margin-left: 5%;
+    float: left;
+}
+.e-btn {
+    float: right;
+    margin-right: 3%;
+}
+.export {
+    color: white;
+    background: #C3270F;
+    border: none;
+    padding: 1%;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+    float: right;
+    margin-left: 210px;
+    margin-right: 70px;
+}
+.show_hidden{
+/**/    position: absolute;
+/**/    display: inline-block;
+    color: white;
+    background: #C3270F;
+    border: none;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+/*    margin-top: -36px; */
+/**/    margin-top: 45px;
+    float: left;
+/**/    left: 9%;
+} 
+.show_hidden a {
+    color: white;
+}
+.show_hidden:hover{
+    cursor: pointer;
+    background: #FE5050;
+    color: #000;
+}
+.sub{
+    position: absolute;
+    display: inline-block;
+    color: white;
+    background: #C3270F;
+    border: none;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 45px;
+    float: left;
+    left: 17%;
+}
+.sub:hover{
+    cursor: pointer;
+    background: #FE5050;
+    color: #000;
+}
+.show_hidden:hover{
+    cursor: pointer;
+    background: #FE5050;
+    color: #000;
+}
+
+
+/* EXCEPTION DETAILS: */
+.exp_data{
+    text-align: center;
+    min-width: 900px;
+    margin-bottom: 50px;
+}
+.details{
+    width: 40%;
+    min-width: 200px;
+    margin-left: 30%;
+}
+
+
+
+.error {
+	width: 92%; 
+	margin: 2%; 
+    /* margin: 40px; */
+    margin-top: 20px; /*40*/
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: left;
+}
+.success {
+	color: #3c763d; 
+	background: #dff0d8; 
+	border: 1px solid #3c763d;
+	margin-bottom: 20px;
+    margin-top: 10px;
+}
